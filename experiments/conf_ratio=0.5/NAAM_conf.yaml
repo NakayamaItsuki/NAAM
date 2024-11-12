@@ -1,0 +1,44 @@
+# MLPのconfを載せる
+
+global:
+  num_layers: 2
+  hidden_channels: 64
+  lamb: 0.0
+  temperature: 1.0
+
+
+cora: 
+  MLP:
+    lr: 0.01
+    weight_decay: 0.002
+    dropout: 0.3
+    smooth_loss_weight: 2.6633234125084275
+
+
+citeseer:   
+  MLP:
+    lr: 0.001
+    weight_decay: 0.01
+    smooth_loss_weight: 0.17210456886007655
+    dropout: 0.8
+
+pubmed:   
+  MLP:
+    lr: 0.001
+    weight_decay: 0.01
+    dropout: 0.8
+    smooth_loss_weight: 1.4166447754858478
+
+amazon_photo: 
+  MLP:
+    lr: 0.005
+    weight_decay: 0.002
+    dropout: 0.1
+    smooth_loss_weight: 0.44559246531023544
+
+amazon_computers: 
+  MLP:
+    lr: 0.001
+    weight_decay: 0.001
+    dropout: 0.4
+    smooth_loss_weight: 0.9929521774112051

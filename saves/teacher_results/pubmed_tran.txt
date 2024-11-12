@@ -1,0 +1,60 @@
+Namespace(dataset='pubmed', model='GCN', n_runs=10, mode='tran', config_name='./train_conf.yaml', device='1', patience=50, ratio=1.0, epochs=2000, num_layers=2, lr=0.01, hidden_channels=64, weight_decay=0.001, dropout=0.8, model_name='GCN')
+train acc: 0.967 | val acc: 0.711 | test acc: 0.770
+train acc: 0.967 | val acc: 0.733 | test acc: 0.748
+train acc: 1.000 | val acc: 0.889 | test acc: 0.785
+train acc: 0.983 | val acc: 0.844 | test acc: 0.737
+train acc: 0.983 | val acc: 0.844 | test acc: 0.780
+train acc: 1.000 | val acc: 0.789 | test acc: 0.772
+train acc: 1.000 | val acc: 0.856 | test acc: 0.755
+train acc: 1.000 | val acc: 0.811 | test acc: 0.736
+train acc: 1.000 | val acc: 0.789 | test acc: 0.763
+train acc: 0.983 | val acc: 0.822 | test acc: 0.761
+0.988 0.013,0.809 0.052,0.761 0.016
+Namespace(dataset='pubmed', model='GAT', n_runs=10, mode='tran', config_name='./train_conf.yaml', device='1', patience=50, ratio=1.0, epochs=2000, num_layers=2, lr=0.01, hidden_channels=64, weight_decay=0.01, dropout=0.3, model_name='GAT')
+train acc: 1.000 | val acc: 0.756 | test acc: 0.785
+train acc: 1.000 | val acc: 0.767 | test acc: 0.788
+train acc: 1.000 | val acc: 0.778 | test acc: 0.734
+train acc: 1.000 | val acc: 0.867 | test acc: 0.781
+train acc: 1.000 | val acc: 0.767 | test acc: 0.793
+train acc: 1.000 | val acc: 0.800 | test acc: 0.774
+train acc: 1.000 | val acc: 0.733 | test acc: 0.738
+train acc: 1.000 | val acc: 0.833 | test acc: 0.735
+train acc: 1.000 | val acc: 0.711 | test acc: 0.725
+train acc: 1.000 | val acc: 0.767 | test acc: 0.734
+1.000 0.000,0.778 0.043,0.759 0.026
+Namespace(dataset='pubmed', model='SGC', n_runs=10, mode='tran', config_name='./train_conf.yaml', device='1', patience=50, ratio=1.0, epochs=2000, num_layers=2, lr=0.005, hidden_channels=64, weight_decay=0.01, dropout=0.8)
+train acc: 0.983 | val acc: 0.778 | test acc: 0.804
+train acc: 1.000 | val acc: 0.744 | test acc: 0.766
+train acc: 1.000 | val acc: 0.833 | test acc: 0.761
+train acc: 0.983 | val acc: 0.778 | test acc: 0.738
+train acc: 1.000 | val acc: 0.811 | test acc: 0.799
+train acc: 1.000 | val acc: 0.811 | test acc: 0.780
+train acc: 1.000 | val acc: 0.800 | test acc: 0.783
+train acc: 1.000 | val acc: 0.856 | test acc: 0.760
+train acc: 0.983 | val acc: 0.811 | test acc: 0.758
+train acc: 1.000 | val acc: 0.800 | test acc: 0.788
+0.995 0.008,0.802 0.029,0.774 0.020
+Namespace(dataset='pubmed', model='APPNP', n_runs=10, mode='tran', config_name='./train_conf.yaml', device='1', patience=50, ratio=1.0, epochs=2000, num_layers=2, lr=0.01, hidden_channels=64, weight_decay=0.01, dropout=0.1, K=10, alpha=0.1, model_name='APPNP')
+train acc: 0.983 | val acc: 0.744 | test acc: 0.763
+train acc: 1.000 | val acc: 0.767 | test acc: 0.804
+train acc: 1.000 | val acc: 0.778 | test acc: 0.766
+train acc: 1.000 | val acc: 0.867 | test acc: 0.784
+train acc: 1.000 | val acc: 0.778 | test acc: 0.772
+train acc: 0.900 | val acc: 0.789 | test acc: 0.771
+train acc: 0.967 | val acc: 0.700 | test acc: 0.754
+train acc: 1.000 | val acc: 0.811 | test acc: 0.751
+train acc: 1.000 | val acc: 0.756 | test acc: 0.774
+train acc: 1.000 | val acc: 0.778 | test acc: 0.790
+0.985 0.030,0.777 0.041,0.773 0.015
+Namespace(dataset='pubmed', model='GCN2', n_runs=10, mode='tran', config_name='./train_conf.yaml', device='1', patience=50, ratio=1.0, epochs=2000, num_layers=16, lr=0.01, hidden_channels=256, weight_decay=0.0005, dropout=0.5, alpha=0.1, theta=0.4, model_name='GCN2')
+train acc: 0.900 | val acc: 0.744 | test acc: 0.724
+train acc: 0.883 | val acc: 0.778 | test acc: 0.705
+train acc: 1.000 | val acc: 0.811 | test acc: 0.747
+train acc: 1.000 | val acc: 0.811 | test acc: 0.754
+train acc: 0.967 | val acc: 0.767 | test acc: 0.780
+train acc: 1.000 | val acc: 0.811 | test acc: 0.810
+train acc: 1.000 | val acc: 0.789 | test acc: 0.765
+train acc: 0.967 | val acc: 0.800 | test acc: 0.716
+train acc: 0.917 | val acc: 0.711 | test acc: 0.731
+train acc: 0.983 | val acc: 0.811 | test acc: 0.790
+0.962 0.043,0.783 0.032,0.752 0.033

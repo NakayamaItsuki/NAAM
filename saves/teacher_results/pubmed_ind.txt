@@ -1,0 +1,160 @@
+Namespace(dataset='pubmed', model='GCN', n_runs=10, mode='ind', config_name='./train_conf.yaml', device='0', patience=50, ratio=0.5, epochs=2000, num_layers=2, lr=0.01, hidden_channels=64, weight_decay=0.001, dropout=0.8, model_name='GCN')
+0.7332243323326111
+0.7333333492279053
+train acc: 0.983 | val acc: 0.744 | obs test acc: 0.726 | unobs test acc: 0.731 | test acc: 0.728
+0.7145193219184875
+0.7833333611488342
+train acc: 0.950 | val acc: 0.744 | obs test acc: 0.701 | unobs test acc: 0.713 | test acc: 0.707
+0.7695099115371704
+0.8166666626930237
+train acc: 1.000 | val acc: 0.811 | obs test acc: 0.749 | unobs test acc: 0.767 | test acc: 0.758
+0.7214187383651733
+0.6333333253860474
+train acc: 0.983 | val acc: 0.789 | obs test acc: 0.708 | unobs test acc: 0.721 | test acc: 0.715
+0.7862728238105774
+0.75
+train acc: 1.000 | val acc: 0.756 | obs test acc: 0.769 | unobs test acc: 0.785 | test acc: 0.777
+0.7618950009346008
+0.6666666865348816
+train acc: 1.000 | val acc: 0.744 | obs test acc: 0.750 | unobs test acc: 0.762 | test acc: 0.756
+0.7355751991271973
+0.7666666507720947
+train acc: 0.950 | val acc: 0.789 | obs test acc: 0.728 | unobs test acc: 0.737 | test acc: 0.733
+0.7087442874908447
+0.5833333134651184
+train acc: 0.967 | val acc: 0.789 | obs test acc: 0.704 | unobs test acc: 0.711 | test acc: 0.707
+0.7793734073638916
+0.8666666746139526
+train acc: 0.983 | val acc: 0.800 | obs test acc: 0.761 | unobs test acc: 0.782 | test acc: 0.771
+0.759952962398529
+0.800000011920929
+train acc: 1.000 | val acc: 0.789 | obs test acc: 0.742 | unobs test acc: 0.760 | test acc: 0.751
+0.982 0.019,0.776 0.024,0.734 0.023,0.747 0.026, 0.740 0.025
+Namespace(dataset='pubmed', model='GAT', n_runs=10, mode='ind', config_name='./train_conf.yaml', device='0', patience=50, ratio=0.5, epochs=2000, num_layers=2, lr=0.01, hidden_channels=64, weight_decay=0.01, dropout=0.3, model_name='GAT')
+0.751213788986206
+0.75
+train acc: 1.000 | val acc: 0.733 | obs test acc: 0.732 | unobs test acc: 0.748 | test acc: 0.740
+0.7197322249412537
+0.8500000238418579
+train acc: 1.000 | val acc: 0.744 | obs test acc: 0.713 | unobs test acc: 0.719 | test acc: 0.716
+0.7308223247528076
+0.7833333611488342
+train acc: 1.000 | val acc: 0.744 | obs test acc: 0.716 | unobs test acc: 0.728 | test acc: 0.722
+0.7581131458282471
+0.7833333611488342
+train acc: 1.000 | val acc: 0.811 | obs test acc: 0.744 | unobs test acc: 0.757 | test acc: 0.751
+0.7460520267486572
+0.800000011920929
+train acc: 0.983 | val acc: 0.733 | obs test acc: 0.725 | unobs test acc: 0.743 | test acc: 0.734
+0.7527469992637634
+0.800000011920929
+train acc: 1.000 | val acc: 0.711 | obs test acc: 0.729 | unobs test acc: 0.754 | test acc: 0.742
+0.7933254837989807
+0.8833333253860474
+train acc: 1.000 | val acc: 0.789 | obs test acc: 0.771 | unobs test acc: 0.796 | test acc: 0.784
+0.7406858205795288
+0.800000011920929
+train acc: 1.000 | val acc: 0.800 | obs test acc: 0.730 | unobs test acc: 0.742 | test acc: 0.736
+0.7589308619499207
+0.7333333492279053
+train acc: 1.000 | val acc: 0.756 | obs test acc: 0.737 | unobs test acc: 0.757 | test acc: 0.747
+0.7975673079490662
+0.7666666507720947
+train acc: 1.000 | val acc: 0.800 | obs test acc: 0.773 | unobs test acc: 0.797 | test acc: 0.785
+0.998 0.005,0.762 0.033,0.737 0.020,0.754 0.024, 0.746 0.022
+Namespace(dataset='pubmed', model='SGC', n_runs=10, mode='ind', config_name='./train_conf.yaml', device='0', patience=50, ratio=0.5, epochs=2000, num_layers=2, lr=0.005, hidden_channels=64, weight_decay=0.01, dropout=0.8)
+0.7797822952270508
+0.7333333492279053
+train acc: 0.983 | val acc: 0.744 | obs test acc: 0.763 | unobs test acc: 0.779 | test acc: 0.771
+0.7271937727928162
+0.7833333611488342
+train acc: 1.000 | val acc: 0.733 | obs test acc: 0.716 | unobs test acc: 0.726 | test acc: 0.721
+0.7462053298950195
+0.7666666507720947
+train acc: 1.000 | val acc: 0.811 | obs test acc: 0.740 | unobs test acc: 0.742 | test acc: 0.741
+0.7389993071556091
+0.7333333492279053
+train acc: 1.000 | val acc: 0.800 | obs test acc: 0.721 | unobs test acc: 0.739 | test acc: 0.730
+0.7905657291412354
+0.7666666507720947
+train acc: 1.000 | val acc: 0.722 | obs test acc: 0.776 | unobs test acc: 0.790 | test acc: 0.783
+0.751571536064148
+0.7333333492279053
+train acc: 1.000 | val acc: 0.756 | obs test acc: 0.729 | unobs test acc: 0.753 | test acc: 0.741
+0.7858128547668457
+0.8333333134651184
+train acc: 1.000 | val acc: 0.833 | obs test acc: 0.772 | unobs test acc: 0.787 | test acc: 0.780
+0.7472785711288452
+0.8666666746139526
+train acc: 1.000 | val acc: 0.856 | obs test acc: 0.735 | unobs test acc: 0.750 | test acc: 0.742
+0.7691521644592285
+0.7333333492279053
+train acc: 1.000 | val acc: 0.800 | obs test acc: 0.744 | unobs test acc: 0.767 | test acc: 0.755
+0.7783002257347107
+0.8833333253860474
+train acc: 1.000 | val acc: 0.822 | obs test acc: 0.752 | unobs test acc: 0.777 | test acc: 0.765
+0.998 0.005,0.788 0.043,0.745 0.020,0.761 0.021, 0.753 0.020
+Namespace(dataset='pubmed', model='APPNP', n_runs=10, mode='ind', config_name='./train_conf.yaml', device='0', patience=50, ratio=0.5, epochs=2000, num_layers=2, lr=0.01, hidden_channels=64, weight_decay=0.01, dropout=0.1, K=10, alpha=0.1, model_name='APPNP')
+0.7470230460166931
+0.7333333492279053
+train acc: 1.000 | val acc: 0.722 | obs test acc: 0.718 | unobs test acc: 0.748 | test acc: 0.733
+0.7416057586669922
+0.7666666507720947
+train acc: 1.000 | val acc: 0.733 | obs test acc: 0.729 | unobs test acc: 0.737 | test acc: 0.733
+0.6832932829856873
+0.7166666388511658
+train acc: 0.900 | val acc: 0.711 | obs test acc: 0.674 | unobs test acc: 0.682 | test acc: 0.678
+0.7544845938682556
+0.7666666507720947
+train acc: 1.000 | val acc: 0.844 | obs test acc: 0.732 | unobs test acc: 0.752 | test acc: 0.742
+0.5379465222358704
+0.6666666865348816
+train acc: 0.683 | val acc: 0.589 | obs test acc: 0.539 | unobs test acc: 0.534 | test acc: 0.537
+0.7499872446060181
+0.6833333373069763
+train acc: 0.983 | val acc: 0.733 | obs test acc: 0.736 | unobs test acc: 0.748 | test acc: 0.742
+0.7862216830253601
+0.8666666746139526
+train acc: 0.983 | val acc: 0.833 | obs test acc: 0.768 | unobs test acc: 0.787 | test acc: 0.777
+0.7362396121025085
+0.8166666626930237
+train acc: 1.000 | val acc: 0.778 | obs test acc: 0.711 | unobs test acc: 0.738 | test acc: 0.725
+0.7842285633087158
+0.699999988079071
+train acc: 1.000 | val acc: 0.767 | obs test acc: 0.760 | unobs test acc: 0.782 | test acc: 0.771
+0.801502525806427
+0.8333333134651184
+train acc: 1.000 | val acc: 0.811 | obs test acc: 0.772 | unobs test acc: 0.800 | test acc: 0.786
+0.955 0.095,0.752 0.070,0.714 0.064,0.731 0.073, 0.722 0.068
+Namespace(dataset='pubmed', model='GCN2', n_runs=10, mode='ind', config_name='./train_conf.yaml', device='0', patience=50, ratio=0.5, epochs=2000, num_layers=16, lr=0.01, hidden_channels=256, weight_decay=0.0005, dropout=0.5, alpha=0.1, theta=0.4, model_name='GCN2')
+0.7983339428901672
+0.8333333134651184
+train acc: 0.983 | val acc: 0.722 | obs test acc: 0.792 | unobs test acc: 0.795 | test acc: 0.794
+0.7154903411865234
+0.5666666626930237
+train acc: 0.900 | val acc: 0.744 | obs test acc: 0.701 | unobs test acc: 0.712 | test acc: 0.707
+0.7386927008628845
+0.75
+train acc: 1.000 | val acc: 0.800 | obs test acc: 0.728 | unobs test acc: 0.737 | test acc: 0.733
+0.7602596282958984
+0.699999988079071
+train acc: 0.983 | val acc: 0.822 | obs test acc: 0.740 | unobs test acc: 0.758 | test acc: 0.749
+0.803955614566803
+0.8666666746139526
+train acc: 0.983 | val acc: 0.844 | obs test acc: 0.785 | unobs test acc: 0.803 | test acc: 0.794
+0.7571421265602112
+0.7333333492279053
+train acc: 1.000 | val acc: 0.733 | obs test acc: 0.749 | unobs test acc: 0.755 | test acc: 0.752
+0.7737517356872559
+0.800000011920929
+train acc: 1.000 | val acc: 0.800 | obs test acc: 0.763 | unobs test acc: 0.774 | test acc: 0.769
+0.7044513821601868
+0.7333333492279053
+train acc: 0.917 | val acc: 0.800 | obs test acc: 0.703 | unobs test acc: 0.706 | test acc: 0.704
+0.7675167322158813
+0.7666666507720947
+train acc: 0.950 | val acc: 0.767 | obs test acc: 0.756 | unobs test acc: 0.767 | test acc: 0.761
+0.731231153011322
+0.6833333373069763
+train acc: 0.983 | val acc: 0.744 | obs test acc: 0.719 | unobs test acc: 0.731 | test acc: 0.725
+0.970 0.034,0.778 0.039,0.744 0.030,0.754 0.031, 0.749 0.030

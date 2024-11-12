@@ -1,0 +1,60 @@
+Namespace(dataset='amazon_computers', model='GCN', n_runs=10, mode='tran', config_name='./train_conf.yaml', device='1', patience=50, ratio=1.0, epochs=2000, num_layers=2, lr=0.01, hidden_channels=64, weight_decay=0.001, dropout=0.8, model_name='GCN')
+train acc: 0.915 | val acc: 0.880 | test acc: 0.860
+train acc: 0.985 | val acc: 0.880 | test acc: 0.851
+train acc: 0.995 | val acc: 0.890 | test acc: 0.828
+train acc: 0.915 | val acc: 0.843 | test acc: 0.830
+train acc: 0.895 | val acc: 0.843 | test acc: 0.836
+train acc: 0.950 | val acc: 0.907 | test acc: 0.822
+train acc: 0.995 | val acc: 0.880 | test acc: 0.819
+train acc: 0.960 | val acc: 0.897 | test acc: 0.805
+train acc: 0.940 | val acc: 0.900 | test acc: 0.840
+train acc: 0.950 | val acc: 0.917 | test acc: 0.839
+0.950 0.033,0.884 0.023,0.833 0.015
+Namespace(dataset='amazon_computers', model='GAT', n_runs=10, mode='tran', config_name='./train_conf.yaml', device='1', patience=50, ratio=1.0, epochs=2000, num_layers=2, lr=0.01, hidden_channels=64, weight_decay=0.01, dropout=0.3, model_name='GAT')
+train acc: 0.975 | val acc: 0.890 | test acc: 0.852
+train acc: 0.965 | val acc: 0.843 | test acc: 0.756
+train acc: 0.975 | val acc: 0.880 | test acc: 0.855
+train acc: 0.985 | val acc: 0.857 | test acc: 0.819
+train acc: 0.990 | val acc: 0.887 | test acc: 0.860
+train acc: 0.950 | val acc: 0.897 | test acc: 0.851
+train acc: 0.955 | val acc: 0.823 | test acc: 0.811
+train acc: 0.980 | val acc: 0.890 | test acc: 0.799
+train acc: 0.970 | val acc: 0.880 | test acc: 0.809
+train acc: 0.975 | val acc: 0.917 | test acc: 0.820
+0.972 0.012,0.876 0.026,0.823 0.031
+Namespace(dataset='amazon_computers', model='SGC', n_runs=10, mode='tran', config_name='./train_conf.yaml', device='1', patience=50, ratio=1.0, epochs=2000, num_layers=2, lr=0.005, hidden_channels=64, weight_decay=0.01, dropout=0.8)
+train acc: 0.935 | val acc: 0.903 | test acc: 0.838
+train acc: 0.970 | val acc: 0.897 | test acc: 0.851
+train acc: 0.985 | val acc: 0.877 | test acc: 0.834
+train acc: 0.945 | val acc: 0.857 | test acc: 0.847
+train acc: 0.940 | val acc: 0.887 | test acc: 0.838
+train acc: 0.945 | val acc: 0.920 | test acc: 0.838
+train acc: 0.960 | val acc: 0.867 | test acc: 0.823
+train acc: 0.935 | val acc: 0.890 | test acc: 0.808
+train acc: 0.935 | val acc: 0.877 | test acc: 0.852
+train acc: 0.945 | val acc: 0.913 | test acc: 0.841
+0.950 0.016,0.889 0.019,0.837 0.013
+Namespace(dataset='amazon_computers', model='APPNP', n_runs=10, mode='tran', config_name='./train_conf.yaml', device='1', patience=50, ratio=1.0, epochs=2000, num_layers=2, lr=0.01, hidden_channels=64, weight_decay=0.01, dropout=0.0, K=10, alpha=0.1, model_name='APPNP')
+train acc: 0.960 | val acc: 0.883 | test acc: 0.807
+train acc: 0.965 | val acc: 0.860 | test acc: 0.848
+train acc: 0.985 | val acc: 0.880 | test acc: 0.844
+train acc: 0.955 | val acc: 0.853 | test acc: 0.817
+train acc: 0.945 | val acc: 0.847 | test acc: 0.816
+train acc: 0.975 | val acc: 0.917 | test acc: 0.813
+train acc: 0.975 | val acc: 0.857 | test acc: 0.804
+train acc: 0.965 | val acc: 0.873 | test acc: 0.793
+train acc: 0.985 | val acc: 0.867 | test acc: 0.841
+train acc: 0.960 | val acc: 0.927 | test acc: 0.829
+0.967 0.012,0.876 0.025,0.821 0.018
+Namespace(dataset='amazon_computers', model='GCN2', n_runs=10, mode='tran', config_name='./train_conf.yaml', device='1', patience=50, ratio=1.0, epochs=2000, num_layers=16, lr=0.01, hidden_channels=256, weight_decay=0.001, dropout=0.5, alpha=0.1, theta=0.4, model_name='GCN2')
+train acc: 0.995 | val acc: 0.890 | test acc: 0.829
+train acc: 0.995 | val acc: 0.873 | test acc: 0.851
+train acc: 1.000 | val acc: 0.880 | test acc: 0.823
+train acc: 0.990 | val acc: 0.860 | test acc: 0.831
+train acc: 0.990 | val acc: 0.890 | test acc: 0.847
+train acc: 0.980 | val acc: 0.917 | test acc: 0.812
+train acc: 0.995 | val acc: 0.870 | test acc: 0.831
+train acc: 0.980 | val acc: 0.877 | test acc: 0.807
+train acc: 0.985 | val acc: 0.880 | test acc: 0.817
+train acc: 0.980 | val acc: 0.923 | test acc: 0.813
+0.989 0.007,0.886 0.019,0.826 0.014

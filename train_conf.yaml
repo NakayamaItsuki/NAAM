@@ -1,0 +1,186 @@
+global:
+  num_layers: 2
+  lr: 0.005
+  weight_decay: 0.01
+  dropout: 0.8
+  
+cora: 
+  GCN:
+    lr: 0.01
+    weight_decay: 0.001
+    dropout: 0.8
+  
+  GAT:
+    lr: 0.01
+    weight_decay: 0.01
+    dropout: 0.3
+
+  GCN2:
+    num_layers: 64
+    hidden_channels: 64
+    lr: 0.01
+    weight_decay: 0.01
+    dropout: 0.6
+    alpha: 0.1
+    theta: 0.5
+
+  APPNP:
+    num_layers: 2
+    hidden_channels: 64
+    lr: 0.01
+    weight_decay: 0.01
+    dropout: 0.1
+    K: 10
+    alpha: 0.1
+
+  MLP:
+    lr: 0.01
+    weight_decay: 0.0
+    dropout: 0.8
+    temperature: 1.0
+    lamb: 0.4
+
+citeseer: 
+  GCN:
+    lr: 0.01
+    weight_decay: 0.001
+    dropout: 0.8
+
+  GAT:
+    lr: 0.01
+    weight_decay: 0.01
+    dropout: 0.3
+
+  GCN2:
+    num_layers: 32
+    hidden_channels: 256
+    lr: 0.01
+    weight_decay: 0.01
+    dropout: 0.7
+    alpha: 0.1
+    theta: 0.6
+
+  APPNP:
+    num_layers: 2
+    hidden_channels: 64
+    lr: 0.005
+    weight_decay: 0.005
+    dropout: 0.0
+    K: 10
+    alpha: 0.2
+  
+  MLP:
+    lr: 0.001
+    weight_decay: 0.01
+    dropout: 0.8
+    temperature: 1.0
+    lamb: 0.4
+
+pubmed:   
+  GCN:
+    lr: 0.01
+    weight_decay: 0.001
+    dropout: 0.8
+
+  GAT:
+    lr: 0.01
+    weight_decay: 0.01
+    dropout: 0.3
+
+  GCN2:
+    num_layers: 16
+    hidden_channels: 256
+    lr: 0.01
+    weight_decay: 0.0005
+    dropout: 0.5
+    alpha: 0.1
+    theta: 0.4
+
+  APPNP:
+    num_layers: 2
+    hidden_channels: 64
+    lr: 0.01
+    weight_decay: 0.01
+    dropout: 0.1
+    K: 10
+    alpha: 0.1
+
+  MLP:
+    lr: 0.01
+    weight_decay: 0.002
+    dropout: 0.5
+    temperature: 2.0
+    lamb: 0.6
+
+amazon_photo: 
+  GCN:
+    lr: 0.01
+    weight_decay: 0.001
+    dropout: 0.8
+
+  GAT:
+    lr: 0.01
+    weight_decay: 0.01
+    dropout: 0.3
+
+  GCN2:
+    num_layers: 16
+    hidden_channels: 256
+    lr: 0.01
+    weight_decay: 0.0005
+    dropout: 0.5
+    alpha: 0.1
+    theta: 0.4
+    
+  APPNP:
+    num_layers: 2
+    hidden_channels: 64
+    lr: 0.01
+    weight_decay: 0.01
+    dropout: 0.0
+    K: 10
+    alpha: 0.1
+
+  MLP:
+    dropout: 0.3
+    lr: 0.01
+    weight_decay: 0.0
+    temperature: 1.0
+    lamb: 0.3
+
+amazon_computers: 
+  GCN:
+    lr: 0.01
+    weight_decay: 0.001
+    dropout: 0.8
+
+  GAT:
+    lr: 0.01
+    weight_decay: 0.01
+    dropout: 0.3
+
+  GCN2:
+    num_layers: 16
+    hidden_channels: 256
+    lr: 0.01
+    weight_decay: 0.001
+    dropout: 0.5
+    alpha: 0.1
+    theta: 0.4
+
+  APPNP:
+    num_layers: 2
+    hidden_channels: 64
+    lr: 0.01
+    weight_decay: 0.01
+    dropout: 0.0
+    K: 10
+    alpha: 0.1
+
+  MLP:
+    dropout: 0.5
+    lr: 0.005
+    weight_decay: 0.002
+    temperature: 1.0
+    lamb: 0.5
+

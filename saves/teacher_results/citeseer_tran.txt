@@ -1,0 +1,60 @@
+Namespace(dataset='citeseer', model='GCN', n_runs=10, mode='tran', config_name='./train_conf.yaml', device='1', patience=50, ratio=1.0, epochs=2000, num_layers=2, lr=0.01, hidden_channels=64, weight_decay=0.001, dropout=0.8, model_name='GCN')
+train acc: 0.958 | val acc: 0.639 | test acc: 0.730
+train acc: 0.983 | val acc: 0.639 | test acc: 0.737
+train acc: 0.967 | val acc: 0.667 | test acc: 0.674
+train acc: 0.967 | val acc: 0.639 | test acc: 0.721
+train acc: 0.975 | val acc: 0.656 | test acc: 0.724
+train acc: 0.958 | val acc: 0.628 | test acc: 0.690
+train acc: 0.967 | val acc: 0.700 | test acc: 0.710
+train acc: 0.983 | val acc: 0.689 | test acc: 0.698
+train acc: 0.983 | val acc: 0.611 | test acc: 0.685
+train acc: 0.958 | val acc: 0.622 | test acc: 0.703
+0.970 0.010,0.649 0.027,0.707 0.020
+Namespace(dataset='citeseer', model='GAT', n_runs=10, mode='tran', config_name='./train_conf.yaml', device='1', patience=50, ratio=1.0, epochs=2000, num_layers=2, lr=0.01, hidden_channels=64, weight_decay=0.01, dropout=0.3, model_name='GAT')
+train acc: 0.967 | val acc: 0.617 | test acc: 0.686
+train acc: 0.992 | val acc: 0.594 | test acc: 0.713
+train acc: 0.983 | val acc: 0.644 | test acc: 0.675
+train acc: 0.992 | val acc: 0.633 | test acc: 0.728
+train acc: 0.992 | val acc: 0.650 | test acc: 0.724
+train acc: 0.992 | val acc: 0.656 | test acc: 0.707
+train acc: 0.975 | val acc: 0.689 | test acc: 0.713
+train acc: 0.992 | val acc: 0.683 | test acc: 0.729
+train acc: 0.958 | val acc: 0.611 | test acc: 0.676
+train acc: 1.000 | val acc: 0.628 | test acc: 0.705
+0.984 0.013,0.641 0.029,0.706 0.019
+Namespace(dataset='citeseer', model='SGC', n_runs=10, mode='tran', config_name='./train_conf.yaml', device='1', patience=50, ratio=1.0, epochs=2000, num_layers=2, lr=0.005, hidden_channels=64, weight_decay=0.01, dropout=0.8)
+train acc: 0.992 | val acc: 0.644 | test acc: 0.730
+train acc: 0.992 | val acc: 0.617 | test acc: 0.729
+train acc: 0.967 | val acc: 0.706 | test acc: 0.705
+train acc: 1.000 | val acc: 0.672 | test acc: 0.738
+train acc: 0.992 | val acc: 0.639 | test acc: 0.743
+train acc: 0.992 | val acc: 0.656 | test acc: 0.714
+train acc: 0.967 | val acc: 0.711 | test acc: 0.736
+train acc: 0.983 | val acc: 0.683 | test acc: 0.736
+train acc: 0.983 | val acc: 0.611 | test acc: 0.726
+train acc: 0.975 | val acc: 0.633 | test acc: 0.720
+0.984 0.011,0.657 0.033,0.728 0.011
+Namespace(dataset='citeseer', model='APPNP', n_runs=10, mode='tran', config_name='./train_conf.yaml', device='1', patience=50, ratio=1.0, epochs=2000, num_layers=2, lr=0.005, hidden_channels=64, weight_decay=0.005, dropout=0.0, K=10, alpha=0.2, model_name='APPNP')
+train acc: 1.000 | val acc: 0.617 | test acc: 0.725
+train acc: 1.000 | val acc: 0.606 | test acc: 0.734
+train acc: 1.000 | val acc: 0.694 | test acc: 0.685
+train acc: 1.000 | val acc: 0.661 | test acc: 0.731
+train acc: 1.000 | val acc: 0.667 | test acc: 0.740
+train acc: 1.000 | val acc: 0.672 | test acc: 0.710
+train acc: 1.000 | val acc: 0.700 | test acc: 0.730
+train acc: 1.000 | val acc: 0.700 | test acc: 0.734
+train acc: 1.000 | val acc: 0.628 | test acc: 0.720
+train acc: 1.000 | val acc: 0.639 | test acc: 0.717
+1.000 0.000,0.658 0.033,0.723 0.015
+Namespace(dataset='citeseer', model='GCN2', n_runs=10, mode='tran', config_name='./train_conf.yaml', device='1', patience=50, ratio=1.0, epochs=2000, num_layers=32, lr=0.01, hidden_channels=256, weight_decay=0.01, dropout=0.7, alpha=0.1, theta=0.6, model_name='GCN2')
+train acc: 0.908 | val acc: 0.644 | test acc: 0.742
+train acc: 0.892 | val acc: 0.650 | test acc: 0.759
+train acc: 0.892 | val acc: 0.711 | test acc: 0.716
+train acc: 0.858 | val acc: 0.644 | test acc: 0.758
+train acc: 0.900 | val acc: 0.678 | test acc: 0.742
+train acc: 0.933 | val acc: 0.639 | test acc: 0.704
+train acc: 0.908 | val acc: 0.689 | test acc: 0.744
+train acc: 0.967 | val acc: 0.728 | test acc: 0.741
+train acc: 0.900 | val acc: 0.650 | test acc: 0.744
+train acc: 0.858 | val acc: 0.617 | test acc: 0.745
+0.902 0.030,0.665 0.033,0.740 0.016
